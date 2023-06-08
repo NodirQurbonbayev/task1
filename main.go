@@ -210,3 +210,18 @@ func main ()  {
 	fmt.Println(R)
 	fmt.Println(d)
 }
+package main
+
+import (
+	"fmt"
+	"math"
+)
+
+// ikkita nuqta orasidagi masofani topish
+func main() {
+	var x, y float64
+	fmt.Scan(&x, &y)
+	distance := math.Abs(x - y)
+	fmt.Println(distance)
+
+}
