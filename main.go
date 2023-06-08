@@ -81,3 +81,15 @@ func main()  {
 	fmt.Println("Uzunligi=",L)
 	fmt.Println("Yuzi=",S)
 }
+
+package main
+
+import "fmt"
+//O'rta arifmetigi
+func main() {
+    var a,b,sum int 
+	fmt.Scan(&a,&b)
+	sum=(a+b)/2
+	fmt.Println("Yig'indi",sum)
+
+}
