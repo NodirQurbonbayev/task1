@@ -195,3 +195,18 @@ func main() {
     fmt.Printf("Radiusi: %.2f\n", R)
     fmt.Printf("Yuzasi: %.2f\n", S)
 }
+package main 
+
+import (
+	"fmt"
+	"math"
+)	
+//Diametr  va radiusini hisoblash 
+func main ()  {
+	var S float64
+	fmt.Scan(&S)
+	R:=math.Sqrt( S/(2 * math.Pi))
+	d:=2*R
+	fmt.Println(R)
+	fmt.Println(d)
+}
