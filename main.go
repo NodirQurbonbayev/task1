@@ -146,3 +146,20 @@ func main() {
 	fmt.Println("kopaytmasi=", kopaytmasi)
 	fmt.Println("moduli=", moduli)
 }
+package main
+
+import (
+	"fmt"
+	"math"
+)
+// gipotenuza va perimetr hisoblash
+func main() {
+	var a, b float64
+	fmt.Scan(&a, &b)
+	c := math.Sqrt(a*a + b*b)
+	P := a + b + c
+
+	fmt.Printf("gipotenuza= %.2f\n", c)
+	fmt.Println("perimetr=", P)
+
+}
