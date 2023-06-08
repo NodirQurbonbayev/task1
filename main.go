@@ -163,3 +163,18 @@ func main() {
 	fmt.Println("perimetr=", P)
 
 }
+package main 
+
+import "fmt"
+
+func main ()  {
+	var r1,r2 int 
+	var p float32=3.14
+	fmt.Scan(&r1,&r2)
+		s1:=float32(r1)*p
+		s2:=float32(r2)*p
+		s3:=p*float32(r1-r2)
+		fmt.Println("s1=",s1)
+		fmt.Println("s2=",s2)
+		fmt.Println("s3=",s3)
+}
