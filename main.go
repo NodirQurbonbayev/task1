@@ -20,3 +20,16 @@ func main()  {
 	S=a*a
 	fmt.Println("Yuzi=",S)
 }
+package main
+
+import "fmt"
+
+//Yuzi va Perimeterni hisoblash
+func main() {
+	var a, b, S, P int
+	fmt.Scan(&a, &b)
+	S = a * b
+	P = 2 * (a + b)
+	fmt.Println("Yuzi=", S)
+	fmt.Println("Perimeter=", P)
+}
