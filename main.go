@@ -44,3 +44,16 @@ func main()  {
 	L:=p*float32(d)
 	fmt.Println(L)
 }
+package main
+
+import "fmt"
+
+// hajmi va s ni topish
+func main() {
+	var a, S, V int
+	fmt.Scan(&a)
+	V = a * a * a
+	S = 6 * (a * a)
+	fmt.Println("Hajm=", V)
+	fmt.Println("Yuzi=", S)
+}
