@@ -241,3 +241,19 @@ func main() {
 	sum := ab * bc
 	fmt.Println(sum)
 }
+package main
+
+import (
+	"fmt"
+	"math"
+)
+
+// Sonlar o'qida A,B,C nuqtalar berilgan Ac va Bc kesmalar uzunligining yig'indisini hisoblash
+func main() {
+	var a, b, c float64
+	fmt.Scan(&a, &b, &c)
+	ac := math.Abs(a - c)
+	bc := math.Abs(b - c)
+	sum := ac + bc
+	fmt.Println(sum)
+}
