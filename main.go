@@ -128,3 +128,21 @@ func main ()  {
 	fmt.Println("kopaytmasi=",kopaytmasi)
 	fmt.Println("kvadrat=",kvadrat)
 }
+package main
+
+import (
+	"fmt"
+	"math"
+)
+
+// Yig'indi,ko'paytmasi va moduli hisoblash
+func main() {
+	var a, b int
+	fmt.Scan(&a, &b)
+	Yigindi := a + b
+	kopaytmasi := a * b
+	moduli := math.Abs(float64(a) + float64(b))
+	fmt.Println("yig'indi=", Yigindi)
+	fmt.Println("kopaytmasi=", kopaytmasi)
+	fmt.Println("moduli=", moduli)
+}
