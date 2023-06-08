@@ -33,3 +33,14 @@ func main() {
 	fmt.Println("Yuzi=", S)
 	fmt.Println("Perimeter=", P)
 }
+package main 
+
+import  "fmt"
+//L=p*d uzunligini topish 	
+func main()  {
+	var d int
+	var p float32=3.14
+	fmt.Scan(&d)
+	L:=p*float32(d)
+	fmt.Println(L)
+}
