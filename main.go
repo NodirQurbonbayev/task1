@@ -178,3 +178,20 @@ func main ()  {
 		fmt.Println("s2=",s2)
 		fmt.Println("s3=",s3)
 }
+package main
+
+import (
+    "fmt"
+    "math"
+)
+// Radiusi va yuzasini hisoblash 
+func main() {
+    var L float64
+    fmt.Scan(&L)
+    
+    R := L / (2 * math.Pi)
+    S := math.Pi * math.Pow(R, 2)
+    
+    fmt.Printf("Radiusi: %.2f\n", R)
+    fmt.Printf("Yuzasi: %.2f\n", S)
+}
