@@ -69,3 +69,15 @@ func main()  {
 	fmt.Println("Hajm=",V)
 	fmt.Println("Yuzi=",S)
 }
+package main 
+
+import "fmt"
+// yuzi va uzunligini topish
+func main()  {
+	var r int=2 
+	var p=3.14 float64
+	L:=2*p*r 
+	S:=p*r*r
+	fmt.Println("Uzunligi=",L)
+	fmt.Println("Yuzi=",S)
+}
