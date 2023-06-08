@@ -225,3 +225,19 @@ func main() {
 	fmt.Println(distance)
 
 }
+package main
+
+import (
+	"fmt"
+	"math"
+)
+
+// Sonlar o'qida A,B,C nuqtalar berilgan Ac va Bc kesmalar uzunligining ko'paytmasini hisoblash
+func main() {
+	var a, b, c float64
+	fmt.Scan(&a, &b, &c)
+	ab := math.Abs(a - b)
+	bc := math.Abs(b - c)
+	sum := ab * bc
+	fmt.Println(sum)
+}
