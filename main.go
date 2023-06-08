@@ -111,3 +111,20 @@ func main() {
 
 	fmt.Printf(" o'rta geometr= %.2f", sqrt)
 }
+package main
+
+import (
+	"fmt"
+)
+// Yig'indi,ko'paytmasini va kvadrat hisoblash 
+func main ()  {
+	var a int
+	var b int 
+	fmt.Scan(&a,&b)
+	Yigindi:=a+b
+	kopaytmasi:=a*b
+	kvadrat:=a*a*b*b
+	fmt.Println("Yigindi=",Yigindi)
+	fmt.Println("kopaytmasi=",kopaytmasi)
+	fmt.Println("kvadrat=",kvadrat)
+}
