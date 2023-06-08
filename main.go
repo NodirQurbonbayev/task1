@@ -93,3 +93,21 @@ func main() {
 	fmt.Println("Yig'indi",sum)
 
 }
+package main
+
+import (
+	"fmt"
+	"math"
+)
+
+// o'rta geometrigi
+func main() {
+	var num1, num2 float64
+	fmt.Scan(&num1, &num2)
+
+	sqrt1 := math.Sqrt(num1)
+	sqrt2 := math.Sqrt(num2)
+	sqrt := sqrt1 * sqrt2
+
+	fmt.Printf(" o'rta geometr= %.2f", sqrt)
+}
